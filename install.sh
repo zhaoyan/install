@@ -65,4 +65,4 @@ if [  -f ~/.config/doublecmd/doublecmd.xml ]; then
 fi 
 cp doublecmd.xml ~/.config/doublecmd/doublecmd.xml
 
-
+cat set_title >>~/.bashrc
