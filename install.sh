@@ -6,6 +6,9 @@ sudo apt  install vim
 
 sudo apt-get -y update
 sudo apt-get -y install git-core
+git config --global user.email "zhaoyan.hrb@gmail.com"
+git config --global user.name "Yan Zhao"
+
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 if [  -f ~/.vimrc ]; then
@@ -66,3 +69,7 @@ fi
 cp doublecmd.xml ~/.config/doublecmd/doublecmd.xml
 
 cat set_title >>~/.bashrc
+sudo apt-get install virtualbox-guest-dkms
+
+mkdir ~/linux_share
+
