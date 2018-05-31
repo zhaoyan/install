@@ -73,3 +73,10 @@ sudo apt-get install virtualbox-guest-dkms
 
 mkdir ~/linux_share
 
+sudo apt-get install texstudio
+texstudio
+
+echo "Now copy tex profile"
+sleep 5
+cat tex_studio_profile >> ~/.config/texstudio.ini 
+
