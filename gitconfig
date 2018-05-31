@@ -1,0 +1,15 @@
+[diff]
+    tool = meld
+[difftool]
+	prompt = false
+[difftool "meld"]
+	cmd = meld "$LOCAL" "$REMOTE"
+[merge]
+    tool = meld
+[mergetool "meld"]
+	path = /usr/bin/meld
+	keepBackup = false
+	trustExitCode = false	
+# Choose one of these 2 lines (not both!) explained below.
+	#cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
+    cmd = meld "$LOCAL" "$BASE" "$REMOTE" --output "$MERGED"

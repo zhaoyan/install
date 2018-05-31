@@ -80,3 +80,6 @@ echo "Now copy tex profile"
 sleep 5
 cat tex_studio_profile >> ~/.config/texstudio.ini 
 
+sudo apt-get install meld -y
+cat gitconfig >> ~/.gitconfig
+sudo apt install gitk
